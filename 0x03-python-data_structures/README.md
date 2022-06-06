@@ -7,7 +7,7 @@ Data Structures: Lists, Tuples
 
 Files | Description
 ----------- | -----------
-
+[ | 
 [0-print_list_integer.py](./0-print_list_integer.py) | Function that prints all integers of a list. Prototype: def print_list_integer(my_list=[]):
 [1-element_at.py](./1-element_at.py) | function that retrieves an element from a list like in C. Prototype: def element_at(my_list, idx):
 [2-replace_in_list.py](./2-replace_in_list.py) | Function that replaces an element of a list at a specific position (like in C). Prototype: def replace_in_list(my_list, idx, element):
@@ -26,4 +26,3 @@ Files | Description
 [palindrome](./palindrome) | Compiled code for task 13
 [13-is_palindrome.c](./13-is_palindrome.c) | Function in C that checks if a singly linked list is a palindrome. Prototype: int is_palindrome(listint_t **head);
 [100-print_python_list_info.c](./100-print_python_list_info.c) | C function that prints some basic info about Python lists. Prototype: void print_python_list_info(PyObject *p); Shared library will be compiled with this command line:```   gcc -Wall -Werror -Wextra -pedantic -std=c99 -shared -Wl,-soname,PyList -o libPyList.so -fPIC -I/usr/include/python3.4 100-print_python_list_info.c ```
-
